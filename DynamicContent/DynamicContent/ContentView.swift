@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var names: [String] = ["Elisha", "Andre", "Jasmine", "Po-Chun"]
+    @State private var names: [String] = []
     @State private var nameToAdd: String = ""
     @State private var pickedName: String = ""
     @State private  var shouldRemovePickedName: Bool = false
@@ -17,7 +17,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             VStack (spacing: 10){
-                Image(systemName: "person.3.fill")
+                Image(systemName: "person.3.sequence.fill")
+                    .foregroundStyle(.tint)
+                    .symbolRenderingMode(.hierarchical)
                 Text("Random Org")
             }
             .font(.title)
@@ -25,6 +27,9 @@ struct ContentView: View {
             
             
             Text(pickedName.isEmpty ? " " : pickedName)
+                .font(.title2)
+                .bold()
+                .foregroundStyle(.tint)
             
             List{
                 ForEach(names , id: \.description) {
@@ -32,6 +37,8 @@ struct ContentView: View {
                 }
                 
             }
+            .clipShape(RoundedRectangle(cornerRadius: 8))
+
             TextField("Add name", text: $nameToAdd)
                 .autocorrectionDisabled()
                 .onSubmit {
