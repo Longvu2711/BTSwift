@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		606D26CF2CD56ABD004FA8BC /* ModelData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		608F3C162CD7BBBE009C6F4E /* SaveData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		606D26D12CD56ABD004FA8BC /* ModelData */ = {
+		608F3C182CD7BBBE009C6F4E /* SaveData */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ModelData;
+			path = SaveData;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		606D26CC2CD56ABD004FA8BC /* Frameworks */ = {
+		608F3C132CD7BBBE009C6F4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		606D26C62CD56ABD004FA8BC = {
+		608F3C0D2CD7BBBE009C6F4E = {
 			isa = PBXGroup;
 			children = (
-				606D26D12CD56ABD004FA8BC /* ModelData */,
-				606D26D02CD56ABD004FA8BC /* Products */,
+				608F3C182CD7BBBE009C6F4E /* SaveData */,
+				608F3C172CD7BBBE009C6F4E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		606D26D02CD56ABD004FA8BC /* Products */ = {
+		608F3C172CD7BBBE009C6F4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				606D26CF2CD56ABD004FA8BC /* ModelData.app */,
+				608F3C162CD7BBBE009C6F4E /* SaveData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		606D26CE2CD56ABD004FA8BC /* ModelData */ = {
+		608F3C152CD7BBBE009C6F4E /* SaveData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 606D26DD2CD56ABE004FA8BC /* Build configuration list for PBXNativeTarget "ModelData" */;
+			buildConfigurationList = 608F3C242CD7BBBF009C6F4E /* Build configuration list for PBXNativeTarget "SaveData" */;
 			buildPhases = (
-				606D26CB2CD56ABD004FA8BC /* Sources */,
-				606D26CC2CD56ABD004FA8BC /* Frameworks */,
-				606D26CD2CD56ABD004FA8BC /* Resources */,
+				608F3C122CD7BBBE009C6F4E /* Sources */,
+				608F3C132CD7BBBE009C6F4E /* Frameworks */,
+				608F3C142CD7BBBE009C6F4E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				606D26D12CD56ABD004FA8BC /* ModelData */,
+				608F3C182CD7BBBE009C6F4E /* SaveData */,
 			);
-			name = ModelData;
+			name = SaveData;
 			packageProductDependencies = (
 			);
-			productName = ModelData;
-			productReference = 606D26CF2CD56ABD004FA8BC /* ModelData.app */;
+			productName = SaveData;
+			productReference = 608F3C162CD7BBBE009C6F4E /* SaveData.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		606D26C72CD56ABD004FA8BC /* Project object */ = {
+		608F3C0E2CD7BBBE009C6F4E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					606D26CE2CD56ABD004FA8BC = {
+					608F3C152CD7BBBE009C6F4E = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 606D26CA2CD56ABD004FA8BC /* Build configuration list for PBXProject "ModelData" */;
+			buildConfigurationList = 608F3C112CD7BBBE009C6F4E /* Build configuration list for PBXProject "SaveData" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 606D26C62CD56ABD004FA8BC;
+			mainGroup = 608F3C0D2CD7BBBE009C6F4E;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 606D26D02CD56ABD004FA8BC /* Products */;
+			productRefGroup = 608F3C172CD7BBBE009C6F4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				606D26CE2CD56ABD004FA8BC /* ModelData */,
+				608F3C152CD7BBBE009C6F4E /* SaveData */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		606D26CD2CD56ABD004FA8BC /* Resources */ = {
+		608F3C142CD7BBBE009C6F4E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		606D26CB2CD56ABD004FA8BC /* Sources */ = {
+		608F3C122CD7BBBE009C6F4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		606D26DB2CD56ABE004FA8BC /* Debug */ = {
+		608F3C222CD7BBBF009C6F4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		606D26DC2CD56ABE004FA8BC /* Release */ = {
+		608F3C232CD7BBBF009C6F4E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,15 +244,14 @@
 			};
 			name = Release;
 		};
-		606D26DE2CD56ABE004FA8BC /* Debug */ = {
+		608F3C252CD7BBBF009C6F4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ModelData/Preview Content\"";
-				DEVELOPMENT_TEAM = DRNYWWZWJ5;
+				DEVELOPMENT_ASSET_PATHS = "\"SaveData/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -265,7 +264,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vulong.Wanwamy.ModelData;
+				PRODUCT_BUNDLE_IDENTIFIER = vulong.Wanwamy.SaveData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -273,15 +272,14 @@
 			};
 			name = Debug;
 		};
-		606D26DF2CD56ABE004FA8BC /* Release */ = {
+		608F3C262CD7BBBF009C6F4E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ModelData/Preview Content\"";
-				DEVELOPMENT_TEAM = DRNYWWZWJ5;
+				DEVELOPMENT_ASSET_PATHS = "\"SaveData/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vulong.Wanwamy.ModelData;
+				PRODUCT_BUNDLE_IDENTIFIER = vulong.Wanwamy.SaveData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		606D26CA2CD56ABD004FA8BC /* Build configuration list for PBXProject "ModelData" */ = {
+		608F3C112CD7BBBE009C6F4E /* Build configuration list for PBXProject "SaveData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				606D26DB2CD56ABE004FA8BC /* Debug */,
-				606D26DC2CD56ABE004FA8BC /* Release */,
+				608F3C222CD7BBBF009C6F4E /* Debug */,
+				608F3C232CD7BBBF009C6F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		606D26DD2CD56ABE004FA8BC /* Build configuration list for PBXNativeTarget "ModelData" */ = {
+		608F3C242CD7BBBF009C6F4E /* Build configuration list for PBXNativeTarget "SaveData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				606D26DE2CD56ABE004FA8BC /* Debug */,
-				606D26DF2CD56ABE004FA8BC /* Release */,
+				608F3C252CD7BBBF009C6F4E /* Debug */,
+				608F3C262CD7BBBF009C6F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 606D26C72CD56ABD004FA8BC /* Project object */;
+	rootObject = 608F3C0E2CD7BBBE009C6F4E /* Project object */;
 }

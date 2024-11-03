@@ -1,0 +1,10 @@
+
+disabled_rules:
+  - line_length
+
+trailing_whitespace:
+  ignores_empty_lines: false
+  ignores_comments: true
+
+vertical_whitespace:
+  max_empty_lines: 1 
