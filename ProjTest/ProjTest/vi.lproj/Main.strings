@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UJW-OW-Dx0"; */
+"UJW-OW-Dx0.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Language"; ObjectID = "ZQh-rd-YqD"; */
+"ZQh-rd-YqD.configuration.title" = "Language";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ZQh-rd-YqD"; */
+"ZQh-rd-YqD.normalTitle" = "Button";
